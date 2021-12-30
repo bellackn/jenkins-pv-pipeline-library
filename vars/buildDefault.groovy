@@ -99,8 +99,8 @@ void call(Map config = [:]) {
         log.trace("calling defaultAnalyzeStage")
         defaultAnalyzeStage(config)
         // analyze results
-        log.trace("calling defaultResultsStage")
-        defaultResultsStage(config)
+        //log.trace("calling defaultResultsStage")
+        //defaultResultsStage(config)
 
         // call post execution extends
         for (postExtension in postExtensions) {
